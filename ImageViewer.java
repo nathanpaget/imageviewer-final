@@ -257,6 +257,7 @@ public class ImageViewer
         filterList.add(new FishEyeFilter("Fish Eye"));
         filterList.add(new InvertRedFilter("Invert Red"));
         filterList.add(new InvertGreenFilter("Invert Green"));
+        filterList.add(new InvertBlueFilter("Invert Blue"));
        
         return filterList;
     }
